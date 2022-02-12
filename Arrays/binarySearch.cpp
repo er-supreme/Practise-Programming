@@ -41,6 +41,7 @@ int main()
     }    
     cin>>k;   
     cout<<binarySearch(arr,n,k)<<endl;
+
         
     return 0;
 }
