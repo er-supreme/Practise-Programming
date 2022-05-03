@@ -3,26 +3,26 @@ using namespace std;
 
 int main()
 {
-
-#ifndef ONLINE_JUDGE // not a part of code used to beautify the code
+    #ifndef ONLINE_JUDGE // not a part of code used to beautify the code
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-#endif
+    #endif
 
-    int n, arr[n];
-    cin >> n;
-    for (int i = 0; i < n; i++)
-    {
-        cin >> arr[i];
-    }
+
+    // int n, arr[n];
+    // cin >> n;
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cin >> arr[i];
+    // }
 
 
     // this program reverses the array........................................1
 
-    for (int i = n - 1; i >= 0; i--)
-    {
-        cout << arr[i] << " ";
-    }
+    // for (int i = n - 1; i >= 0; i--)
+    // {
+    //     cout << arr[i] << " ";
+    // }
 
 
 
