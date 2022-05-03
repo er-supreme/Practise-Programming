@@ -1,27 +1,25 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
+int main()
+{
 
-int main() {
-    
-   int t;
-   cin >> t;
-   int n;
-   
-   while(t--){
-      cin >> n;
-      vector <int> v;
-      for(int i = 0;i<n;i++){
-        int temp;
-        cin>>temp;
-        v.push_back(temp);  
-      }
-        int save = 0;
-     
-      sort(v.begin(),v.end());
+  int t;
+  cin >> t;
 
-      for(int i=0;i<n;i++) cout<<v[i] <<" ";
-   }
-    return 0;
+  while (t--)
+  {
+    int n;
+    cin >> n;
+    int a[n];
+    set<int> save;
+    for (int i = 0; i < n; i++)
+    {
+      cin >> a[i];
+      save.emplace(a[i]);
+    }
+
+    cout << save.size() << endl;
+  }
+  return 0;
 }
-
